@@ -92,9 +92,7 @@ For II = 1 To WS_Count
             ActiveWorkbook.Worksheets(II).Range("P4").Value = ActiveWorkbook.Worksheets(II).Cells(i, 9).Value
         End If
     Next i
-
     MsgBox (ActiveWorkbook.Worksheets(II).Name & " calculation is done")
-
 Next II
 
 End Sub
